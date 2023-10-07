@@ -17,7 +17,13 @@ public class PrintPyramid {
         // for the first level print out    __3__
         // for the second level print out   _232_
         // for the third level print out    12321
+         printPyramid(levels);
+        printPyramid(levels + 2);
 
+    }
+
+    public static void printPyramid(int levels)
+    {
         for (int i = levels; i> 0; i--){ // 3 time or the number of levels
             String levelString = ""; // placeholder for storing the levels string __3__
             //left side of the pyramid
@@ -53,6 +59,5 @@ public class PrintPyramid {
 
             System.out.println(levelString);
         }
-
     }
 }
