@@ -54,7 +54,7 @@ public class HouseStuff {
         return true;
     }
 
-    public static void removeRandomMonsters(String[][] house,  int removeCount) {
+    public static void removeRandomMonsters(String[][] house, int removeCount) {
         while (removeCount > 0) {
             // generate 2 random numbers
             int xPos = (int)(Math.random() * house.length);
