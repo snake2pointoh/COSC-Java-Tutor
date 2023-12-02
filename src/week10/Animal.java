@@ -15,6 +15,10 @@ public abstract class Animal implements Comparable, MyCloneable {
         return type.LEGS;
     }
 
+    public AnimalType getType() {
+        return this.type;
+    }
+
     @Override
     public int compareTo(Object o) {
         if(o instanceof Animal) {
