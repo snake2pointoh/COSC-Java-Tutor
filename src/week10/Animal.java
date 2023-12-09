@@ -29,4 +29,13 @@ public abstract class Animal implements Comparable, MyCloneable {
         // usually throw an error
         return 1;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Animal) {
+            return this.compareTo(obj) == 0;
+        } else {
+            return false;
+        }
+    }
 }
