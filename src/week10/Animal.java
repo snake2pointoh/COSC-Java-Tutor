@@ -20,6 +20,11 @@ public abstract class Animal implements Comparable, MyCloneable {
     }
 
     @Override
+    public String toString() {
+        return String.format("Speed: %.2f, Legs: %d", speed, this.getLegCount());
+    }
+
+    @Override
     public int compareTo(Object o) {
         if(o instanceof Animal) {
             Animal other = (Animal) o;
