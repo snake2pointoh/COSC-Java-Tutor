@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CopyFile:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CopyFile_jar</output-path>
+    <root id="archive" name="COSC-Java-Tutor.jar">
+      <element id="module-output" name="COSC-Java-Tutor" />
+    </root>
+  </artifact>
+</component>

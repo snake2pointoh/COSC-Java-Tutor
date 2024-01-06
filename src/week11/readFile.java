@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class readFile {
+public class ReadFile {
     public static void main(String[] args) {
 
         // Create a file object for the desired file

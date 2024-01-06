@@ -1,10 +1,11 @@
 package src.week11;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class writeFile {
+public class WriteFile {
     public static void main(String[] args) {
         
         // Create a file object for the desired file
@@ -26,5 +27,20 @@ public class writeFile {
         } catch (IOException ex) {
             ex.printStackTrace();
         }
+
+//        PrintWriter output;
+//        try {
+//            output = new PrintWriter(myFile);
+//
+//            output.println("this is a line of text");
+//            output.print("this is");
+//            output.println(" another Line");
+//
+//            output.close();
+//
+//        } catch (FileNotFoundException e) {
+//            throw new RuntimeException(e);
+//        }
+
     }
 }
