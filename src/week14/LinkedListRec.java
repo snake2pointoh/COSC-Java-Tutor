@@ -12,9 +12,7 @@ public class LinkedListRec <T> {
     public void add(T data) {
         if(head == null) {
             head = new Node<T>(data, null);
-
             count += 1;
-
             return;
         }
 
@@ -24,9 +22,7 @@ public class LinkedListRec <T> {
     private void recAdd(Node<T> current, T data) {
         if(current.next == null) {
             current.next = new Node<T>(data, null);
-
             count += 1;
-
             return;
         }
 
