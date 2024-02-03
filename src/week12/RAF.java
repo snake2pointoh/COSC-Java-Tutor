@@ -7,8 +7,6 @@ public class RAF {
     public static void main(String[] args) {
         try(RandomAccessFile IO = new RandomAccessFile("files/raf.dat","rw")) {
 
-
-
             IO.writeInt(4);
 
             IO.writeBoolean(true);
