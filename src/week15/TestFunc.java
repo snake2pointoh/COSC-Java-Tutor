@@ -16,6 +16,7 @@ public class TestFunc {
         System.out.println( myBiFunction.apply(10,5.0) );
 
         doThingToInt(15, TestFunc::doubleInt);
+        doThingToInt(20, new MyFunc());
 
     }
 
