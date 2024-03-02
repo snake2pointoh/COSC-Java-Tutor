@@ -17,8 +17,6 @@ public class simpleFX extends Application {
         BorderPane obPane = new BorderPane();
         Button myButton = new Button("My Button");
 
-        obPane.setBackground();
-
         obPane.setCenter(myButton);
 
         Scene mainScene = new Scene(obPane,500,500);
