@@ -1,4 +1,4 @@
-package chap15;
+package src.other.chap15;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

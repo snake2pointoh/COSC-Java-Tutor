@@ -1,4 +1,4 @@
-package src.other;
+package src.other.chap15;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
