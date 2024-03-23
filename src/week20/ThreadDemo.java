@@ -11,7 +11,6 @@ import java.util.Random;
 
 public class ThreadDemo extends Application {
 
-
     Pane mainPain;
     Paddle p1Paddle;
     Paddle p2Paddle;
@@ -31,7 +30,7 @@ public class ThreadDemo extends Application {
 
         setupPaddleEvents(KeyCode.W, KeyCode.S, KeyCode.E, KeyCode.D);
 
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 4; i++) {
             double startX = random.nextDouble(100,301);
             double startY = random.nextDouble(100,301);
             double radius = random.nextDouble(10,20);

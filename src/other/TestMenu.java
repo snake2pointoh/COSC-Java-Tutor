@@ -55,7 +55,7 @@ public class TestMenu extends Application
 	private Menu getFileMenu()
 	{
 		Menu mnFile = new Menu("File");
-		MenuItem mnuOpen= new  MenuItem("Open");
+		MenuItem mnuOpen= new MenuItem("Open");
 		MenuItem mnuSave = new MenuItem("Save");
 		MenuItem mnuExit = new MenuItem("Exit");
 
