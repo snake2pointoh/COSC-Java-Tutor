@@ -14,7 +14,7 @@ public class ClientSock {
 
 
         try {
-            sock = new Socket("localhost",2000);
+            sock = new Socket("localhost",2000); // 127.0.0.1
 
             ObjectOutputStream obOut = new ObjectOutputStream(sock.getOutputStream());
             ObjectInputStream obIn = new ObjectInputStream(sock.getInputStream());
